@@ -1,0 +1,6 @@
+#!/bin/sh
+
+IMAGEJ_CMD='ImageJ-linux64 --headless'
+DIR='/home/guraltsev/.local/bin/ImageJ-scripts/CLAHE'
+
+$IMAGEJ_CMD $DIR/CLAHE.py "$@"
